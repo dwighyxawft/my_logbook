@@ -1,0 +1,19 @@
+main{
+    min-height: 80vh;
+}
+div.index-container{
+    display: flex;
+    flex-direction: row;
+}
+div.col-1{
+    width: 40%;
+}
+div.col-2{
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    div.col-2{
+        display: none;
+    }
+}
